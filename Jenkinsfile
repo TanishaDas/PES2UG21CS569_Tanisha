@@ -14,9 +14,11 @@ pipeline {
     }
       
     stage('Deploy') { 
-      steps {
+     
         echo 'deploy'
       }
+    }
+  }
     
   post {
     failure {
