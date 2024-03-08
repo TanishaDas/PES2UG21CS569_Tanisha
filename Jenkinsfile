@@ -9,9 +9,8 @@ pipeline {
     }
     stage('Test') { 
       steps {
-        sh './o'
-      }
-    }
+        sh './output'
+   
       
    stage('Deploy') {  
       steps {
